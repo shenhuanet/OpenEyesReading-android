@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">开眼阅读</string>
+    <string name="toolbar_title_null" />
+    <string name="smoothlistview_header_hint_normal">下拉刷新</string>
+    <string name="smoothlistview_header_hint_ready">松开刷新数据</string>
+    <string name="smoothlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="smoothlistview_header_last_time">上次更新时间：</string>
+    <string name="menu_one_img">图片</string>
+    <string name="menu_one_random">随机</string>
+
+    <string name="module_reading">阅读</string>
+    <string name="module_ihistory">历史</string>
+    <string name="module_more">更多</string>
+
+    <string name="toolbar_title_news">新闻</string>
+    <string name="toolbar_title_sina_photo">新浪图片</string>
+    <string name="toolbar_title_photo_detail">图片详情</string>
+
+    <string name="photo_page">%1$d/%2$d</string>
+    <string name="photo_detail_content">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%1$s</string>
+    <string name="login_and_regist">登录注册</string>
+    <string name="txt_action_string_login">登\u3000\u3000录</string>
+    <string name="txt_action_string_forgot">忘记密码</string>
+    <string name="txt_action_string_register">注\u3000\u3000册</string>
+    <string name="txt_action_string_done">完\u3000\u3000成</string>
+
+</resources>

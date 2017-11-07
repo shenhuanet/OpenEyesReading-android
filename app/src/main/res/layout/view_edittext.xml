@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ev_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_edittext"
+        android:gravity="start"
+        android:hint="@string/smoothlistview_header_hint_loading"
+        android:padding="5dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorTextHint"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorHalfTransparent"
+        android:textSize="12sp" />
+
+</FrameLayout>

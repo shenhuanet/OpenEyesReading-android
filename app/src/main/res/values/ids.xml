@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="toolbar" type="id" />
+    <item name="toolbar_title" type="id" />
+
+    <!--Banner-->
+    <item name="vp_ad" type="id" />
+    <item name="ll_index_container" type="id" />
+
+    <item name="smoothlistview_header_content" type="id" />
+    <item name="smoothlistview_header_text" type="id" />
+    <item name="smoothlistview_header_hint_textview" type="id" />
+    <item name="smoothlistview_header_time" type="id" />
+    <item name="smoothlistview_header_arrow" type="id" />
+    <item name="smoothlistview_header_progressbar" type="id" />
+
+    <!--主页listview item-->
+    <item name="img_content" type="id" />
+    <item name="layout_item" type="id" />
+    <item name="txt_title" type="id" />
+    <item name="txt_sub_title" type="id" />
+    <item name="txt_date" type="id" />
+
+    <!--MainActivity-->
+    <item name="view_pager" type="id" />
+    <item name="bottom_tab" type="id" />
+
+    <!--主页-->
+    <item name="listView" type="id" />
+    <item name="rl_bar" type="id" />
+    <item name="view_title_bg" type="id" />
+    <item name="tv_title" type="id" />
+    <item name="fl_action_more" type="id" />
+    <item name="view_action_more_bg" type="id" />
+
+    <item name="id_refresh_head" type="id" />
+    <item name="img_tag" type="id" />
+
+    <item name="et_username" type="id" />
+    <item name="et_password" type="id" />
+    <item name="et_verfy" type="id" />
+    <item name="tv_login" type="id" />
+    <item name="tv_register" type="id" />
+    <item name="tv_forgot" type="id" />
+    <item name="btn_done" type="id" />
+
+</resources>

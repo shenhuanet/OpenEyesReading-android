@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/Toolbar.Transparent"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolbarDark">
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.shenhua.openeyesreading.widget.HackyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" />
+
+    <com.shenhua.comlib.widget.RichTextView
+        android:id="@+id/tv_photo_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="8dp"
+        android:text="据外媒报道，继上周一条头似海豚身似鳄鱼的奇怪深海生物于新南韦尔斯省搁浅。"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_photo_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_photo_detail_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_photo_detail_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/photo_page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

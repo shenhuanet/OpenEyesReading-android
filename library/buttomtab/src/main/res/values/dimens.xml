@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="bottom_tab_elevation">8dp</dimen>
+    <dimen name="bottom_tab_shadow_height">0dp</dimen>
+    <dimen name="bottom_tab_shadow_height_without_colored_background">0dp</dimen>
+    <dimen name="bottom_tab_min_width">104dp</dimen>
+    <dimen name="bottom_tab_max_width">168dp</dimen>
+    <dimen name="bottom_tab_height">56dp</dimen>
+    <dimen name="bottom_tab_line_width">1dp</dimen>
+    <dimen name="bottom_tab_icon">24dp</dimen>
+    <dimen name="bottom_tab_padding_top_active">5dp</dimen>
+    <dimen name="bottom_tab_padding_top_inactive">9dp</dimen>
+    <dimen name="bottom_tab_padding_top_inactive_without_text">16dp</dimen>
+    <dimen name="bottom_tab_padding_bottom">7dp</dimen>
+    <dimen name="bottom_tab_padding_left">12dp</dimen>
+    <dimen name="bottom_tab_padding_right">12dp</dimen>
+    <dimen name="bottom_tab_text_size_active">14sp</dimen>
+    <dimen name="bottom_tab_text_size_inactive">12sp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#009C80</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackGround">#F3F3F3</color>
+    <color name="colorMaterialWhite">#F9F9F9</color>
+
+    <color name="colorArticle">#00DFBA</color>
+    <color name="colorIHistory">#009C80</color>
+    <color name="colorMore">#33ABA0</color>
+
+    <!-- common -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorHalfTransparent">#8f000000</color>
+    <color name="colorOrange">#f27242</color>
+    <color name="colorNull">#F2F2F5</color>
+    <color name="colorText">#576069</color>
+    <color name="colorTextHint">#7F7F7F</color>
+    <color name="colorIndicator">#FFFF00</color>
+    <color name="colorLayoutPressed">#207F7F7F</color>
+    <color name="colorTopOne">#DD3939</color>
+    <color name="colorTopTwo">#FF7900</color>
+    <color name="colorTopOther">#CCCCCC</color>
+
+
+</resources>

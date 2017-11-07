@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Toolbar.IHistory"
+    app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+    <TextView
+        style="@style/ToolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.shenhua.toolbarmenu.ToolbarMenu
+        android:id="@+id/toolbar_btn"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center" />
+
+</android.support.v7.widget.Toolbar>

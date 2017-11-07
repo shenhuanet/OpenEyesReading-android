@@ -1,0 +1,154 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme_Dark_Dialog" parent="AlertDialog.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CollToolBarStyle">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:id">@id/toolbar</item>
+        <item name="android:paddingTop">@dimen/toolbar_padding_top</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar.Normal">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar.Article">
+        <item name="android:background">@color/colorArticle</item>
+    </style>
+
+    <style name="Toolbar.IHistory">
+        <item name="android:background">@color/colorIHistory</item>
+    </style>
+
+    <style name="Toolbar.More">
+        <item name="android:background">@color/colorMore</item>
+    </style>
+
+    <style name="Toolbar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:id">@id/toolbar_title</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--Toolbar溢出菜单亮色-->
+    <style name="OverflowMenuStyle.Light" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!--Toolbar溢出菜单黑色-->
+    <style name="OverflowMenuStyle.Dark" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!-- ToolBar菜单样式 -->
+    <style name="ToolbarDark" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow</item>
+    </style>
+
+    <!--菜单收起来时的三个小点的样式-->
+    <style name="ActionButton.Overflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_over_flow</item>
+    </style>
+
+    <style name="MaterialAnimations.TextAppearance.Title" parent="android:TextAppearance.Material.Title">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="MaterialAnimations.TextAppearance.Title.Inverse" parent="android:TextAppearance.Material.Title">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="cardBackgroundColor">#33ffffff</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">1dp</item>
+    </style>
+
+    <style name="Edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/bg_edit</item>
+    </style>
+
+    <style name="Edit.User">
+        <item name="android:id">@id/et_username</item>
+        <item name="android:inputType">phone</item>
+    </style>
+
+    <style name="Edit.Password">
+        <item name="android:id">@id/et_password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="Edit.Verfy">
+        <item name="android:id">@id/et_verfy</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="ButtonDoneStyle">
+        <item name="android:id">@id/btn_done</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="ActionTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="ActionTextView.InRelativeLayout">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ActionTextView.InRelativeLayout.Left">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="ActionTextView.InRelativeLayout.Right">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+</resources>
